@@ -120,6 +120,7 @@ body {
     height: 185px;
     border:solid 1px rgb(234, 248, 234);
      border-radius: 10px;
+     cursor: pointer;
 }
 
 .category-container{
