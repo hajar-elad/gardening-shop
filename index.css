@@ -100,11 +100,11 @@ body {
 
 .header-next-content {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    padding: 5%;
 }
 
 .header-left-section {
-    padding: 7%;
     display: flex;
     flex-direction: column;
     gap: 21px;
@@ -123,9 +123,6 @@ body {
 
 }
 
-.garden-materials-photo {
-    width: 35%;
-}
 
 .plant-image {
     width: 200px;
@@ -143,7 +140,8 @@ body {
 
 .header-right-section {
     position: relative;
-
+    width: 35vw;
+   /* border: solid 2px red;*/
 }
 
 .garden-photo1,
@@ -151,28 +149,31 @@ body {
 .garden-photo3 {
     position: absolute;
     width: 200px;
-    height: 280px;
-    
+    height: 250px;
+    border: solid 2px rgb(192, 133, 133);
+    top: 0;
 }
 
 .garden-photo1{
     z-index: 1;
-    right: 75px;
-    top: 75px;
+    right: 1px;
+    top: 1px;
     background-color: rgb(0, 174, 255);
+    transform: rotate(17deg);
 }
 .garden-photo2{
     z-index: 5;
-    right: 145px;
-    top: 105px;
+    right: 55px;
+    top: 10px;
     background-color: blue;
 
 }
 .garden-photo3{
     z-index: 10;
-    right: 215px;
-    top: 135px;
+    right: 110px;
+    top: 20px;
     background-color: rebeccapurple;
+    transform: rotate(-15deg);
 }
 
 
