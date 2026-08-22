@@ -6,7 +6,7 @@ body {
 }
 
 .header {
-    border-bottom: dotted 1px rgb(247, 160, 160);
+    border-bottom: dotted 1px rgb(167, 247, 160);
     /* background-image: url('images/vibrant-colorful-flower-bg.jpg');
     background-position: center;
     background-size:cover;
@@ -19,8 +19,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-image: linear-gradient(to right, rgb(231, 229, 230), rgb(253, 224, 224), rgb(194, 118, 118));
-    border-bottom: dotted 1px rgb(247, 160, 160);
+    background-image: linear-gradient(to right, rgb(204, 233, 209), rgb(243, 253, 242), rgb(123, 185, 116));
+    border-bottom: dotted 1px rgb(167, 247, 160);
 }
 
 .business-logo {
@@ -67,7 +67,7 @@ body {
     border: solid 1px rgb(253, 224, 224);
     border-radius: 50px;
     cursor: pointer;
-    background-image: linear-gradient(to right, rgb(214, 130, 108), rgb(248, 231, 239), rgb(214, 130, 108));
+    background-image: linear-gradient(to right, rgb(204, 233, 209), rgb(243, 253, 242), rgb(123, 185, 116));
     background-size: 200% 200%;
     animation: animationBg 7s linear infinite;
     text-wrap: nowrap;
@@ -80,7 +80,7 @@ body {
 
 .more {
     margin-left: 2%;
-    background-image: linear-gradient(to right, rgb(218, 123, 100), rgb(253, 219, 235), rgb(218, 126, 103));
+    background-image: linear-gradient(to right, rgb(192, 231, 199), rgb(231, 253, 229), rgb(117, 189, 109));
 }
 
 @keyframes animationBg {
@@ -101,7 +101,7 @@ body {
 .header-next-content {
     display: flex;
     justify-content: space-around;
-    padding: 5%;
+    padding: 7%;
 }
 
 .header-left-section {
@@ -127,7 +127,7 @@ body {
 .plant-image {
     width: 200px;
     height: 200px;
-    border: solid 7px rgb(253, 224, 224);
+    border: solid 7px rgb(148, 197, 152);
     border-radius: 10px;
 }
 
@@ -150,7 +150,7 @@ body {
     position: absolute;
     width: 200px;
     height: 250px;
-    border: solid 2px rgb(192, 133, 133);
+    border: solid 2px rgb(148, 197, 152);
     top: 0;
 }
 
@@ -181,7 +181,7 @@ body {
 
 .main {
     padding: 2%;
-    background-image: linear-gradient(to right, rgb(231, 229, 230), rgb(253, 224, 224), rgb(194, 118, 118));
+    background-image: linear-gradient(to right, rgb(196, 255, 205), rgb(243, 253, 242), rgb(123, 185, 116));
 }
 
 
@@ -210,7 +210,7 @@ body {
     margin: 0;
     width: 200px;
     height: 200px;
-    border: solid 1px rgb(82, 51, 51);
+    border: solid 1px rgb(23, 68, 26);
     border-radius: 10px;
 }
 
